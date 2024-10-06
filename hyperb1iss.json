@@ -1,0 +1,1184 @@
+[
+    {
+        "id": "42204784073",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 861202121,
+            "name": "hyperb1iss/cosmosys",
+            "url": "https://api.github.com/repos/hyperb1iss/cosmosys"
+        },
+        "payload": {
+            "repository_id": 861202121,
+            "push_id": 20380665558,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/main",
+            "head": "d6abad7395368e8e2ea6fc14fc1fe88ba9b1a2c8",
+            "before": "c69ef04849a5968e09ad190fa73eee3751379c48",
+            "commits": [
+                {
+                    "sha": "2bfcc8d0afa595b7b6ce5771620d6a2e1f5de8ba",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u267b\ufe0f Refactor release process for improved simplicity\n\nSimplify execute_steps method in ReleaseManager class\n\n- Remove Progress bar and related imports\n- Streamline step execution logic\n- Maintain existing functionality with cleaner code\n- Improve readability and reduce complexity\n- Keep error handling and rollback mechanisms intact",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/cosmosys/commits/2bfcc8d0afa595b7b6ce5771620d6a2e1f5de8ba"
+                },
+                {
+                    "sha": "49c2efdd65b10f6f2cbe6f0cbd4f7a74de2bf16c",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u267b\ufe0f Refactor step classes to use CosmosysContext\n\nRefactor release step classes to use CosmosysContext\n\nThis commit updates all release step classes to use the new\nCosmosysContext object instead of the previous CosmosysConfig.\nThe change improves consistency and provides better access to\nshared resources across steps.\n\n- Update import statements in all step files\n- Modify __init__ methods to accept CosmosysContext\n- Replace self.config with self.context where appropriate\n- Update logging calls to use self.console methods\n- Add or improve docstrings for execute() and rollback() methods\n- Minor code style improvements and formatting changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/cosmosys/commits/49c2efdd65b10f6f2cbe6f0cbd4f7a74de2bf16c"
+                },
+                {
+                    "sha": "368605723acc6c035f5973e75308f58a818c0d87",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 Enhance version update functionality\n\nImprove version update step with robust file handling\n\n- Add support for semver versioning\n- Implement file-specific version updates (TOML, JSON, Python)\n- Introduce interactive version selection\n- Add Git tag creation option\n- Improve error handling and user feedback\n- Update related components for compatibility",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/cosmosys/commits/368605723acc6c035f5973e75308f58a818c0d87"
+                },
+                {
+                    "sha": "d6abad7395368e8e2ea6fc14fc1fe88ba9b1a2c8",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 Add VersionManager for improved version handling\n\nIntroduce VersionManager class for centralized version management\n\n- Create new version_manager.py with VersionManager class\n- Refactor version update logic from VersionUpdateStep\n- Implement methods for determining new version and updating files\n- Update CLI and VersionUpdateStep to use VersionManager\n- Improve version update process with more robust file handling",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/cosmosys/commits/d6abad7395368e8e2ea6fc14fc1fe88ba9b1a2c8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T06:55:14Z"
+    },
+    {
+        "id": "42202522548",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Accelerate your Git workflow with AI",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T05:23:57Z"
+    },
+    {
+        "id": "42202522223",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379535024,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "152ad2c147e46d17eda64c9e0afded3fe02adaea",
+            "before": "76fca7fa57922370a5951152271b052493063c53",
+            "commits": [
+                {
+                    "sha": "152ad2c147e46d17eda64c9e0afded3fe02adaea",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": ":rocket: Release version 0.8.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/152ad2c147e46d17eda64c9e0afded3fe02adaea"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T05:23:56Z"
+    },
+    {
+        "id": "42202518383",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379532901,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "76fca7fa57922370a5951152271b052493063c53",
+            "before": "8894151276e414f2e8c436a6659c8c323722dbdc",
+            "commits": [
+                {
+                    "sha": "76fca7fa57922370a5951152271b052493063c53",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2b06\ufe0f Upgrade artifact actions to v4\n\nUpdate upload and download artifact actions\n\nThis commit upgrades the artifact-related GitHub Actions to v4:\n\n- Modify 'actions/upload-artifact' to use version 4\n- Update 'actions/download-artifact' to version 4\n\nThese updates ensure we're using the latest features and\nimprovements in the artifact handling actions, potentially\nenhancing our CI/CD pipeline performance and reliability.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/76fca7fa57922370a5951152271b052493063c53"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T05:23:45Z"
+    },
+    {
+        "id": "42202259821",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T05:10:32Z"
+    },
+    {
+        "id": "42202254948",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379393105,
+            "size": 0,
+            "distinct_size": 0,
+            "ref": "refs/heads/main",
+            "head": "8894151276e414f2e8c436a6659c8c323722dbdc",
+            "before": "3752d6066ac9b6338f0f1f5af59a22a8b280377d",
+            "commits": []
+        },
+        "public": true,
+        "created_at": "2024-09-24T05:10:16Z"
+    },
+    {
+        "id": "42202029457",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379278689,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3752d6066ac9b6338f0f1f5af59a22a8b280377d",
+            "before": "8894151276e414f2e8c436a6659c8c323722dbdc",
+            "commits": [
+                {
+                    "sha": "3752d6066ac9b6338f0f1f5af59a22a8b280377d",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": ":rocket: Release version 0.8.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/3752d6066ac9b6338f0f1f5af59a22a8b280377d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:58:48Z"
+    },
+    {
+        "id": "42202029599",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Accelerate your Git workflow with AI",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:58:48Z"
+    },
+    {
+        "id": "42202026697",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379277362,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8894151276e414f2e8c436a6659c8c323722dbdc",
+            "before": "14a427828c8e5132a25d809cdec58acd53ca835a",
+            "commits": [
+                {
+                    "sha": "8894151276e414f2e8c436a6659c8c323722dbdc",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2b06\ufe0f Upgrade artifact actions to v4\n\nUpdate upload and download artifact actions\n\nThis commit upgrades the artifact-related GitHub Actions to v4:\n\n- Modify 'actions/upload-artifact' to use version 4\n- Update 'actions/download-artifact' to version 4\n\nThese updates ensure we're using the latest features and\nimprovements in the artifact handling actions, potentially\nenhancing our CI/CD pipeline performance and reliability.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/8894151276e414f2e8c436a6659c8c323722dbdc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:58:39Z"
+    },
+    {
+        "id": "42202010233",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:57:47Z"
+    },
+    {
+        "id": "42202007698",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379268127,
+            "size": 0,
+            "distinct_size": 0,
+            "ref": "refs/heads/main",
+            "head": "14a427828c8e5132a25d809cdec58acd53ca835a",
+            "before": "5b74e32305387f38917dca3a7719c8e8594baaca",
+            "commits": []
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:57:39Z"
+    },
+    {
+        "id": "42201812914",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Accelerate your Git workflow with AI",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:47:25Z"
+    },
+    {
+        "id": "42201812679",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379171388,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "5b74e32305387f38917dca3a7719c8e8594baaca",
+            "before": "14a427828c8e5132a25d809cdec58acd53ca835a",
+            "commits": [
+                {
+                    "sha": "5b74e32305387f38917dca3a7719c8e8594baaca",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": ":rocket: Release version 0.8.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/5b74e32305387f38917dca3a7719c8e8594baaca"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:47:25Z"
+    },
+    {
+        "id": "42201809503",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379169832,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "14a427828c8e5132a25d809cdec58acd53ca835a",
+            "before": "c492606ab67c9138f97dec119ae1f70143758966",
+            "commits": [
+                {
+                    "sha": "14a427828c8e5132a25d809cdec58acd53ca835a",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2b06\ufe0f Upgrade artifact actions to v4\n\nUpdate upload and download artifact actions\n\nThis commit upgrades the artifact-related GitHub Actions to v4:\n\n- Modify 'actions/upload-artifact' to use version 4\n- Update 'actions/download-artifact' to version 4\n\nThese updates ensure we're using the latest features and\nimprovements in the artifact handling actions, potentially\nenhancing our CI/CD pipeline performance and reliability.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/14a427828c8e5132a25d809cdec58acd53ca835a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:47:15Z"
+    },
+    {
+        "id": "42201773658",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:45:22Z"
+    },
+    {
+        "id": "42201659454",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Accelerate your Git workflow with AI",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:39:02Z"
+    },
+    {
+        "id": "42201659267",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379092996,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "c492606ab67c9138f97dec119ae1f70143758966",
+            "before": "41da9dfe1e243709d7c8695126ce3a21eaf9918b",
+            "commits": [
+                {
+                    "sha": "c492606ab67c9138f97dec119ae1f70143758966",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": ":rocket: Release version 0.8.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/c492606ab67c9138f97dec119ae1f70143758966"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:39:01Z"
+    },
+    {
+        "id": "42201653898",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:38:44Z"
+    },
+    {
+        "id": "42201652064",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379089322,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "41da9dfe1e243709d7c8695126ce3a21eaf9918b",
+            "before": "780310eeca64ed354dfab3c06bf8bf3bbf59930e",
+            "commits": [
+                {
+                    "sha": "41da9dfe1e243709d7c8695126ce3a21eaf9918b",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2b06\ufe0f Update download-artifact action to v4\n\nUpgrade GitHub Actions workflow dependency\n\nThis commit updates the download-artifact action in our CI/CD\nworkflow to version 4. This upgrade ensures we're using the\nlatest features and improvements provided by the action.\n\nThe change helps keep our workflow up-to-date and potentially\nimproves the efficiency of our artifact downloading process.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/41da9dfe1e243709d7c8695126ce3a21eaf9918b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:38:38Z"
+    },
+    {
+        "id": "42201519129",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "ref": "v0.8.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Accelerate your Git workflow with AI",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:31:09Z"
+    },
+    {
+        "id": "42201518867",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379019710,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "780310eeca64ed354dfab3c06bf8bf3bbf59930e",
+            "before": "44582a008067e725258dee042a5e0f376e207a00",
+            "commits": [
+                {
+                    "sha": "780310eeca64ed354dfab3c06bf8bf3bbf59930e",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": ":rocket: Release version 0.8.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/780310eeca64ed354dfab3c06bf8bf3bbf59930e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:31:08Z"
+    },
+    {
+        "id": "42201503662",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20379011485,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "44582a008067e725258dee042a5e0f376e207a00",
+            "before": "e161211a6ff9dd1fc4c7ff8f1bba6eb01f9dd3b8",
+            "commits": [
+                {
+                    "sha": "44582a008067e725258dee042a5e0f376e207a00",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\ud83d\udcdd Update TODO list\n\nRevise project tasks and priorities\n\nThis commit updates the TODO.md file to reflect current project\nstatus and priorities:\n\n- Add optional confirmation dialogs before commit and on exit\n- Remove completed task for conventional commits support\n- Remove task for ensuring test provider invisibility\n- Add new task for pull request generator\n- Remove task for harsh code review optimization\n- Remove task for improving error handling\n\nThese changes help align the TODO list with recent project\ndevelopments and shifting priorities.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/44582a008067e725258dee042a5e0f376e207a00"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-24T04:30:20Z"
+    },
+    {
+        "id": "42150640694",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 861202121,
+            "name": "hyperb1iss/cosmosys",
+            "url": "https://api.github.com/repos/hyperb1iss/cosmosys"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Cosmosys: Stellar Release Management \ud83c\udf20",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-22T09:47:58Z"
+    },
+    {
+        "id": "42150445802",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 861202121,
+            "name": "hyperb1iss/cosmosys",
+            "url": "https://api.github.com/repos/hyperb1iss/cosmosys"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Cosmosys: Stellar Release Management \ud83c\udf20",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-09-22T09:27:40Z"
+    },
+    {
+        "id": "41981781369",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20265854240,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "e161211a6ff9dd1fc4c7ff8f1bba6eb01f9dd3b8",
+            "before": "a4d6a6650faf061900e2bcfd3de7b41582365bb5",
+            "commits": [
+                {
+                    "sha": "e161211a6ff9dd1fc4c7ff8f1bba6eb01f9dd3b8",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u267b \ufe0f Refactor commit message generation process\n\nImprove commit message generation workflow and instructions\n\nThis change enhances the commit message generation process to provide\nusers with more accurate and consistent results:\n\n- Move combined instructions before gitmoji list in system prompt\n- Update prompt to emphasize adherence to all provided instructions\n- Relocate schema string to end of prompt for better readability\n\nThese improvements ensure that AI-generated commit messages better\nfollow user-defined instructions and maintain consistency with the\nproject's commit message style guidelines.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/e161211a6ff9dd1fc4c7ff8f1bba6eb01f9dd3b8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-16T22:41:43Z"
+    },
+    {
+        "id": "41950025376",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834947056,
+            "name": "hyperb1iss/git-iris",
+            "url": "https://api.github.com/repos/hyperb1iss/git-iris"
+        },
+        "payload": {
+            "repository_id": 834947056,
+            "push_id": 20250509177,
+            "size": 5,
+            "distinct_size": 5,
+            "ref": "refs/heads/main",
+            "head": "a4d6a6650faf061900e2bcfd3de7b41582365bb5",
+            "before": "5be93820cbfd7a7d99e6a0e7632b314d7c31ed0c",
+            "commits": [
+                {
+                    "sha": "d895bde1accdeb42e13b65c14de43ba67004497a",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\ud83d\udc1b Fix parent commit handling in analyze_commit\n\nImprove robustness of parent commit handling in analyze_commit\n\nUpdate the logic to properly handle commits without parents:\n- Check if commit has parents before attempting to access them\n- Use Option for parent commit to handle cases with no parents\n- Update tree diff to use the new parent option structure\n\nThis change prevents potential panics when analyzing commits\nwithout parent commits, such as the initial commit in a repository.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/d895bde1accdeb42e13b65c14de43ba67004497a"
+                },
+                {
+                    "sha": "82b61d3e35691f980c572aa1de2acd77da707a3e",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 Enhance issue and PR extraction in ChangeAnalyzer\n\nImprove regex patterns for issue and PR detection\n\nUpdates in extract_associated_issues and extract_pull_request:\n- Expand issue regex to match both '#' and 'GH-' prefixes\n- Broaden PR regex to capture 'pull request' and 'PR' variations\n- Standardize output format for consistency\n\nThese changes increase the robustness of our change analysis,\nensuring more accurate tracking of related issues and PRs.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/82b61d3e35691f980c572aa1de2acd77da707a3e"
+                },
+                {
+                    "sha": "7507a41300330e55f5e171b47455be4095e1e91b",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 feat(presets): Add Conventional Commits preset\n\nAdd new instruction preset for Conventional Commits format\n\nThis change introduces a new preset to the InstructionPresetLibrary:\n- Preset key: \"conventional\"\n- Name: \"Conventional Commits\"\n- Description: \"Follow the Conventional Commits specification\"\n- Includes detailed instructions for formatting commit messages\n- Uses \ud83d\udccf emoji to represent the structured nature of the format\n\nThis addition allows users to easily adopt the Conventional Commits\nstandard, improving consistency and readability of commit messages.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/7507a41300330e55f5e171b47455be4095e1e91b"
+                },
+                {
+                    "sha": "f66e4ffd355e1c7f0476a03accc85306123e1550",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\ud83d\udc1b Fix gradient application for empty or single-char texts\n\nEnhance robustness of apply_gradient function\n\nThis change improves the handling of edge cases in the apply_gradient\nfunction:\n\n- Add early return for empty input text or gradient\n- Handle single-character texts by using the first gradient color\n- Refactor index calculation for better clarity and correctness\n\nThese updates prevent potential panics or incorrect color application\nwhen processing empty or very short texts, ensuring a more stable and\nreliable UI experience.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/f66e4ffd355e1c7f0476a03accc85306123e1550"
+                },
+                {
+                    "sha": "a4d6a6650faf061900e2bcfd3de7b41582365bb5",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u267b \ufe0f Refactor commit message generation process\n\nImprove commit message generation workflow and instructions\n\nThis change enhances the commit message generation process to provide\nusers with more accurate and consistent results:\n\n- Move combined instructions before gitmoji list in system prompt\n- Update prompt to emphasize adherence to all provided instructions\n- Relocate schema string to end of prompt for better readability\n\nThese improvements ensure that AI-generated commit messages better\nfollow user-defined instructions and maintain consistency with the\nproject's commit message style guidelines.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/git-iris/commits/a4d6a6650faf061900e2bcfd3de7b41582365bb5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-16T04:17:07Z"
+    },
+    {
+        "id": "41938807836",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 852574050,
+            "name": "hyperb1iss/aeonsync",
+            "url": "https://api.github.com/repos/hyperb1iss/aeonsync"
+        },
+        "payload": {
+            "repository_id": 852574050,
+            "push_id": 20243394844,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "47609cac5e7d09c3c280210acc1aa14b3f6bf7c6",
+            "before": "e1fc2515e33a3063ec581174a55ff4a54c3bb19b",
+            "commits": [
+                {
+                    "sha": "47609cac5e7d09c3c280210acc1aa14b3f6bf7c6",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\ud83d\udcdd Update README with new features and use cases\n\nRevise README to highlight key features and practical applications\n\nEnhancements include:\n- Reorganize structure for better readability\n- Add 'Key Features' section emphasizing core capabilities\n- Include 'Getting Started' with simplified installation instructions\n- Expand 'Usage' section with basic command examples\n- Add 'Advanced Topics' covering configuration and remote structure\n- Introduce 'Use Cases' section with practical backup scenarios\n- Update development and contribution guidelines\n\nThese changes provide a more comprehensive and user-friendly overview\nof AeonSync's capabilities and potential applications.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/aeonsync/commits/47609cac5e7d09c3c280210acc1aa14b3f6bf7c6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-15T08:50:30Z"
+    },
+    {
+        "id": "41938653721",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 852574050,
+            "name": "hyperb1iss/aeonsync",
+            "url": "https://api.github.com/repos/hyperb1iss/aeonsync"
+        },
+        "payload": {
+            "repository_id": 852574050,
+            "push_id": 20243298070,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "e1fc2515e33a3063ec581174a55ff4a54c3bb19b",
+            "before": "acb013f89748a77ab5ffb6fc9c7ae855f885137f",
+            "commits": [
+                {
+                    "sha": "082f63619d27870b67bf66660b2adc07e4204149",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 Add daily backup option and sequence numbering\n\nImplement daily backup option and sequence numbering for backups\n\nIn backup.py:\n- Add daily flag to BackupConfig\n- Implement _get_next_backup_name for sequence numbering\n- Update backup_name and backup_path generation\n\nIn cli.py:\n- Add daily option to sync command\n- Update config command with default_daily_backup option\n- Modify BackupConfig creation to include daily flag\n\nIn config.py:\n- Add default_daily_backup to default configuration\n- Include daily flag in BackupConfig\n\nUpdate tests to cover new functionality in test_backup.py and test_cli.py",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/aeonsync/commits/082f63619d27870b67bf66660b2adc07e4204149"
+                },
+                {
+                    "sha": "e1fc2515e33a3063ec581174a55ff4a54c3bb19b",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\u2728 Enhance backup list display and data processing\n\nRefactor ListBackups class for improved functionality and readability\n\n- Revise backup list parsing to handle multi-line JSON data\n- Update table columns to show more relevant information\n- Implement sorting of backups by date in descending order\n- Add methods to extract and format total size and changed size\n- Improve file count formatting to display only the total number\n- Enhance error handling and logging for JSON parsing errors\n- Remove unused imports and simplify code structure\n\nThese changes provide a more informative and user-friendly backup list\ndisplay, focusing on key metrics like total size and changed size.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/aeonsync/commits/e1fc2515e33a3063ec581174a55ff4a54c3bb19b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-15T08:32:49Z"
+    },
+    {
+        "id": "41937583002",
+        "type": "PushEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 852574050,
+            "name": "hyperb1iss/aeonsync",
+            "url": "https://api.github.com/repos/hyperb1iss/aeonsync"
+        },
+        "payload": {
+            "repository_id": 852574050,
+            "push_id": 20242610219,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "acb013f89748a77ab5ffb6fc9c7ae855f885137f",
+            "before": "57e1de8453f6ecb13f0e1879253ecf9d848179da",
+            "commits": [
+                {
+                    "sha": "acb013f89748a77ab5ffb6fc9c7ae855f885137f",
+                    "author": {
+                        "email": "stef@hyperbliss.tech",
+                        "name": "Stefanie Jane"
+                    },
+                    "message": "\ud83d\udc1b Fix incremental backup link-dest path\n\nUpdate relative path for incremental backups\n\nModify the --link-dest argument in the rsync command to use\n\"../latest\" instead of \"../{HOSTNAME}/latest\". This change\nensures correct reference to the previous backup for\nincremental backups, fixing potential issues with hardlinking.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hyperb1iss/aeonsync/commits/acb013f89748a77ab5ffb6fc9c7ae855f885137f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-15T06:17:30Z"
+    },
+    {
+        "id": "41926280309",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 102151,
+            "login": "hyperb1iss",
+            "display_login": "hyperb1iss",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hyperb1iss",
+            "avatar_url": "https://avatars.githubusercontent.com/u/102151?"
+        },
+        "repo": {
+            "id": 834434033,
+            "name": "hyperb1iss/hyper-light-card",
+            "url": "https://api.github.com/repos/hyperb1iss/hyper-light-card"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2",
+                "repository_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card",
+                "labels_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2/comments",
+                "events_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2/events",
+                "html_url": "https://github.com/hyperb1iss/hyper-light-card/issues/2",
+                "id": 2499738016,
+                "node_id": "I_kwDOMbxz8c6U_vmg",
+                "number": 2,
+                "title": "Card not showing up in card list",
+                "user": {
+                    "login": "adamscybot",
+                    "id": 1210785,
+                    "node_id": "MDQ6VXNlcjEyMTA3ODU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1210785?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/adamscybot",
+                    "html_url": "https://github.com/adamscybot",
+                    "followers_url": "https://api.github.com/users/adamscybot/followers",
+                    "following_url": "https://api.github.com/users/adamscybot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/adamscybot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/adamscybot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/adamscybot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/adamscybot/orgs",
+                    "repos_url": "https://api.github.com/users/adamscybot/repos",
+                    "events_url": "https://api.github.com/users/adamscybot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/adamscybot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 6,
+                "created_at": "2024-09-01T23:29:15Z",
+                "updated_at": "2024-09-14T06:45:48Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Firstly, thanks for this and the integration project. Amazing work, I can tell a lot of effort went in. I actually tried to do this same thing before the local API with a local rust proxy of the Application URI's and registry watching like a year ago! Still got the old screen cap lying around https://streamable.com/is2n3o. Eventually, my choice of rust ground me down and I started regretting not just using node and I never saw it through \ud83d\ude05.\r\n\r\nI have an odd problem where the card is not showing up in the card list. Obviously, I suspect this is a me problem on my setup, but I'm out of ideas and hoping you might have some. The dev tools console reports the card is loaded successfully, but when I go to add the card, its simply not in the list (other custom cards working).\r\n\r\nHASS 2024.8.3, installed through latest HACS (btw total side point but in the very recent latest hacs they totally changed the UI including how to add new stuff so the readme's might need a tweak).\r\n\r\nI have cleared all site data via dev tools so it seems like it's not a caching issue. Tried restarting hass, logging in and out etc.\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/comments/2350878848",
+                "html_url": "https://github.com/hyperb1iss/hyper-light-card/issues/2#issuecomment-2350878848",
+                "issue_url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/2",
+                "id": 2350878848,
+                "node_id": "IC_kwDOMbxz8c6MH5CA",
+                "user": {
+                    "login": "hyperb1iss",
+                    "id": 102151,
+                    "node_id": "MDQ6VXNlcjEwMjE1MQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/102151?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/hyperb1iss",
+                    "html_url": "https://github.com/hyperb1iss",
+                    "followers_url": "https://api.github.com/users/hyperb1iss/followers",
+                    "following_url": "https://api.github.com/users/hyperb1iss/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/hyperb1iss/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/hyperb1iss/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/hyperb1iss/subscriptions",
+                    "organizations_url": "https://api.github.com/users/hyperb1iss/orgs",
+                    "repos_url": "https://api.github.com/users/hyperb1iss/repos",
+                    "events_url": "https://api.github.com/users/hyperb1iss/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/hyperb1iss/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2024-09-14T06:45:47Z",
+                "updated_at": "2024-09-14T06:45:47Z",
+                "author_association": "OWNER",
+                "body": "Try out the new version!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/hyperb1iss/hyper-light-card/issues/comments/2350878848/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-14T06:45:49Z"
+    }
+]

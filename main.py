@@ -24,7 +24,7 @@ def extractPayload(url):
         # Parse JSON data
         return json.loads(decryptedPayload)
     except: 
-        print("Could not find user.")
+        print("Error Connecting to GitHub, Please check connection and username.")
         return 0
 
 def writeFile(jsonEvents, file):
@@ -45,7 +45,24 @@ def displayPayload(payload, key):
         print(f"{item} = {count}")
         
 
+def displayPayload2(payload, key):
+    repos = {}
+    for entry in payload:
+        # if entry["repo"]["name"] in repos:
+        repos[entry["repo"]["name"]] = [] 
+            #if entry["type"] in repos[entry["repo"]["name"]]:
+            #    repos["name"][entry["type"]] += 1
+            #else:
+            #    repos["name"][entry["type"]] = 1
+        # else:
+        #     repos[entry["repo"]["name"]] = []
+        #     #if entry["type"] in repos[entry["repo"]["name"]]:
+        #     #    repos["name"][entry["type"]] += 1 
+        #     #else:
+        #     #    repos["name"][entry["type"]] = 1
 
+    for key, value in repos.items(): 
+        print (key, ":", value)
 
 # Replace 'username' with the GitHub username you want to look up
 username = input("What is your user name? ")
@@ -61,4 +78,4 @@ else:
     file = openFile(filename)
     writeFile(payload, file)
 
-displayPayload(payload, "type")
+displayPayload2(payload, "type")

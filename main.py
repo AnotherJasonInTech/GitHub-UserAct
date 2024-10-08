@@ -12,10 +12,10 @@ import os
 
 def openFile(jsonFilename):
     try: 
-        with open(jsonFilename, 'r') as json_file:
+        with open(f"users/"+jsonFilename, 'r') as json_file:
             jsonData = json.load(json_file)
     except: 
-        with open(jsonFilename, 'w') as json_file:
+        with open("users/"+jsonFilename, 'w') as json_file:
             json_file.write('')
             jsonData = []
     return jsonData
@@ -23,7 +23,6 @@ def openFile(jsonFilename):
 def writeFile(jsonEvents, file):
     entries = []
     for event in jsonEvents:
-    # print(f"Repository Name: {repo['name']}, URL: {repo['html_url']}")
         entries.append(event)
 
     with open(filename, 'w') as file:

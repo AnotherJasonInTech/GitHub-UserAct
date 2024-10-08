@@ -1,5 +1,45 @@
 [
     {
+        "id": "42611643403",
+        "type": "PushEvent",
+        "actor": {
+            "id": 21145967,
+            "login": "AnotherJasonInTech",
+            "display_login": "AnotherJasonInTech",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/AnotherJasonInTech",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21145967?"
+        },
+        "repo": {
+            "id": 868038183,
+            "name": "AnotherJasonInTech/GitHub-UserAct",
+            "url": "https://api.github.com/repos/AnotherJasonInTech/GitHub-UserAct"
+        },
+        "payload": {
+            "repository_id": 868038183,
+            "push_id": 20591808615,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a965ab100257c45d36b424d05128b1be800cc89b",
+            "before": "21b70de4b8d609d33b988cedfd521fa33e08161c",
+            "commits": [
+                {
+                    "sha": "a965ab100257c45d36b424d05128b1be800cc89b",
+                    "author": {
+                        "email": "hello@jasonjohnsonny.com",
+                        "name": "Jason Johnson"
+                    },
+                    "message": "trying to figre out lists inside of dictionaires.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/AnotherJasonInTech/GitHub-UserAct/commits/a965ab100257c45d36b424d05128b1be800cc89b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-10-07T14:57:03Z"
+    },
+    {
         "id": "42575963201",
         "type": "PushEvent",
         "actor": {
